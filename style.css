@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-top: 180px;
+}
+
+p {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+input {
+    margin-top: 200px;
+    text-align: center;
+    border: white solid 1px;
+    background-color: black;
+    padding: 8px;
+    color: white;
+    font-size: 15px;
+}
+
+@media (max-width: 667px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        margin-top: 160px;
+    }
+
+}
